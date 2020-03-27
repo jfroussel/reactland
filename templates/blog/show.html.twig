@@ -1,0 +1,18 @@
+{% extends 'base.html.twig'%}
+{% block title %}Contact{% endblock %}
+
+{% block body %}
+<h2>Article</h2>
+<article>
+    <h2>Titre de l'article</h2>
+    <div class="metadata">Ecrit le 16/03/2020 à 20h00 dans la categorie Symfony</div>
+    <div class="content">
+        <img src="http://placehold.it/320x150" alt="">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae vitae saepe ad et dolorum aperiam.</p>
+        <p>Quia nesciunt nihil, aliquam numquam deserunt repudiandae tempora sit modi delectus autem placeat ducimus vitae!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptates quae porro, officiis non voluptatem repellendus neque fugiat amet obcaecati nihil beatae? Perferendis beatae vel ab unde molestiae quo mollitia, neque nihil. Ipsam incidunt facere adipisci rerum molestias dicta, in assumenda delectus corporis sapiente, porro cum iusto, aperiam ea amet!</p>
+        <p>Reprehenderit cumque perspiciatis a tempore architecto sequi cupiditate atque doloremque illum provident consectetur minima commodi autem nihil, quam nulla voluptatem exercitationem praesentium. Ipsam corporis doloribus nam sint deleniti cum hic ex esse iste quo voluptatibus quaerat culpa architecto tempore odit, sequi aspernatur quia porro inventore maiores. Architecto quibusdam quidem quos?</p>
+    </div>
+    <a href={{path('blog')}} class="btn btn-sm btn-primary">Retour aux articles</a>
+</article>
+{% endblock %}
